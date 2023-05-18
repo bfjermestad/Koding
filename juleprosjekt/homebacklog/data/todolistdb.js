@@ -53,7 +53,7 @@ const getConnected = async () => {
 const executeQuery = async (sql) => {
     return new Promise(async (resolve, reject) => {
         try {
-            console.log("Ready to connect");
+            console.log("Ready to connect!!");
             const connection = await getConnected();
             console.log("connected");
             const request = new Request(sql, (err, rowCount, rows) => {
