@@ -19,4 +19,4 @@ jobs:
           npm run test --if-present
       - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v1
-        with:
+        with:cd 
