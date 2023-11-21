@@ -1,0 +1,3 @@
+Get-AzureADUser -ObjectId "AlexW@M365x07504222.OnMicrosoft.com" | Select-Object DisplayName, Department
+
+New-InformationBarrierPolicy -Name "Skole1-og-Skole2-Allow" -AssignedSegment "Skole1" -SegmentsAllowed "Skole1","Skole2" -State Inactive
